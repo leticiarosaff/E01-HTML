@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutorial C</title>
+    </head>
+
+<body>
+    <h1>Tutorial C: estruturas condicionais</h1>
+    <p>Chamamos de estruturas condicionais as instruções para testar se uma condição é verdadeira ou não. Elas podem ser associadas às estruturas que se repetem, após o cumprimento da condição, chamamos a elas de estruturas de loop.</p>
+   <h2>IF</h2>
+   <p>A instrução IF é a estrutura de teste mais básica e é encontrada em todas as linguagens (com sintaxes diferentes). Ela permite executar uma série de instruções caso uma condição se realize.</p> 
+   <p>A condição deve ficar entre parênteses. É possível definir várias condições a serem cumpridas com os conectores AND e OR (&& e ||).></p>
+   <p>A instrução IF em sua forma básica só testa uma condição. Na maioria das vezes, gostaríamos de poder escolher as instruções a serem executadas em caso do não cumprimento da condição. A expressão IF... ELSE permite executar outra série de instruções em caso do não cumprimento da condição. </p>
+   <h2>SWITCH</h2>
+   <p>A Instrução switch efetua vários testes de valores sobre o conteúdo de uma mesma variável. Esta conexão condicional simplifica muito o teste de vários valores de uma variável, pois esta operação teria sido complicada (mas possível) com varios if imbricados.</p>
+   <p>Os parênteses após a palavra-chave switch indicam uma expressão cujo valor é testado, sucessivamente, para cada uma das case. Quando a expressão testada é igual a um dos seguintes valores seguindo um case, a lista de instrução que vem depois, é executada. A palavra-chave break indica a saída da estrutura condicional. A palavra-chave default precede a lista de instruções, que será executada se a expressão nunca for igual a um dos valores.</p>
+   <p>Não se esqueça de inserir instruções break entre cada teste; esse tipo de esquecimento é difícil de ser detectado pois nenhum erro é assinalado. Na verdade, ao omitir o break, a execução continuará nos blocos seguintes. Este fato também pode ser usado criteriosamente, a fim de executar as mesmas instruções para os diferentes valores consecutivos; assim, podemos colocar várias casas antes do bloco.</p>
+   <h2>FOR</h2>
+   <p>A instrução for executa várias vezes a mesma série de instruções: é um loop. Em sua sintaxe, basta especificar o nome da variável que serve de contador (e, eventualmente, o seu valor inicial, a condição sobre a variável para a qual o loop para (basicamente uma condição que testa se o valor do contador excede um limite) e, finalmente, uma instrução que incrementa (ou decrementa) o contador.</p>
+   <h2>WHILE</h2>
+   <p>A instrução while representa outro meio de executar várias vezes a mesma série de instruções.</p>
+   <p>Esta instrução executa a lista de instruções enquanto (significado da palavra While) a condição se realiza. Como a condição de saída pode ser qualquer estrutura condicional, o risco de loop infinito (loop cuja condição é sempre verdadeira) é grande, ou seja, pode causar uma falha do programa em curso de execução.</p>
+</body>
+
+</html>
